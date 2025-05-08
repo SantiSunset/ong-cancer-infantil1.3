@@ -1,38 +1,31 @@
-# sv
+# ong-cancer-infantil1.3
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Neste projeto eu só fiz a instalação base, criei a pagina inicial e dois componentes. 
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+Comandos usados: 
 
-```bash
-# create a new project in the current directory
-npx sv create
+npx sv create nome-do-projeto 
 
-# create a new project in my-app
-npx sv create my-app
-```
+cd nome-do-projeto
 
-## Developing
+npm install
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+npm install -D tailwindcss postcss autoprefixer
 
-```bash
-npm run dev
+**Sempre ocorre erro no comando de ativação do tailwind, não encontrei opção alternativa para o comando. Criei o arquivo manualmente neste caso. 
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+npx tailwindcss init tailwind.config.js -p
 
-## Building
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+# Erro atual: 
+
+![image](https://github.com/user-attachments/assets/c838c4d6-c781-4085-90ae-1eb3d192d206)
+
+Não gera erro no terminal, mas o acesso a URL gera erro: 
+
+![image](https://github.com/user-attachments/assets/12744bb2-6d10-423a-abc6-65fd80de402b)
+> 
